@@ -1,8 +1,8 @@
 package compositePattern;
 
 public class Monitor extends ComputerDevice{
-	private int price;
-	private int power;
+	private int price; // Monitor 가격
+	private int power; // Monitor 전력
 	
 	public Monitor(int price, int power) {
 		this.price = price;
